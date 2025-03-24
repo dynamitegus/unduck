@@ -26,6 +26,8 @@ function noSearchDefaultPageRender() {
         •
         <a href="https://x.com/theo" target="_blank">theo</a>
         •
+        <a href="https://bsky.app/profile/dynamitegus.au" target="_blank">dynamitegus</a>
+        •
         <a href="https://github.com/dynamitegus/unduck" target="_blank">github</a>
       </footer>
     </div>
