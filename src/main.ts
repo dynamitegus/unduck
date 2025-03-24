@@ -8,11 +8,12 @@ function noSearchDefaultPageRender() {
       <div class="content-container">
         <h1>Und*ck</h1>
         <p>DuckDuckGo's bang redirects are too slow. Add the following URL as a custom search engine to your browser. Enables <a href="https://duckduckgo.com/bang.html" target="_blank">all of DuckDuckGo's bangs.</a></p>
+        <p>This version of unduck has been modified by <a href="https://dynamitegus.au/" target="_blank"> to include some extra bangs.</p>
         <div class="url-container"> 
           <input 
             type="text" 
             class="url-input"
-            value="https://unduck.link?q=%s"
+            value="https://unduck.dynamitegus.au?q=%s"
             readonly 
           />
           <button class="copy-button">
@@ -25,7 +26,7 @@ function noSearchDefaultPageRender() {
         •
         <a href="https://x.com/theo" target="_blank">theo</a>
         •
-        <a href="https://github.com/t3dotgg/unduck" target="_blank">github</a>
+        <a href="https://github.com/dynamitegus/unduck" target="_blank">github</a>
       </footer>
     </div>
   `;
