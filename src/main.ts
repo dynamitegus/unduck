@@ -8,7 +8,7 @@ function noSearchDefaultPageRender() {
       <div class="content-container">
         <h1>Und*ck</h1>
         <p>DuckDuckGo's bang redirects are too slow. Add the following URL as a custom search engine to your browser. Enables <a href="https://duckduckgo.com/bang.html" target="_blank">all of DuckDuckGo's bangs.</a></p>
-        <p>This version of unduck has been modified by <a href="https://dynamitegus.au/" target="_blank"> to include some extra bangs.</p>
+        <p>This version of unduck has been modified by <a href="https://dynamitegus.au/" target="_blank">dynamitegus</a> to include some extra bangs.</p>
         <div class="url-container"> 
           <input 
             type="text" 
@@ -19,6 +19,7 @@ function noSearchDefaultPageRender() {
           <button class="copy-button">
             <img src="/clipboard.svg" alt="Copy" />
           </button>
+          <p>yes I know that is broken I just cant be bothered to fix it.</p>
         </div>
       </div>
       <footer class="footer">
