@@ -1,6 +1,26 @@
 // This file was (mostly) ripped from https://duckduckgo.com/bang.js
 
 export const bangs = [
+
+
+  {
+    c: "Entertainment",
+    d: "www.modrinth.com",
+    r: 0,
+    s: "Modrinth",
+    sc: "Games (Minecraft)",
+    t: "mcmodpacks",
+    u: "https://modrinth.com/modpacks?q={{{s}}}",
+  },
+  {
+    c: "Entertainment",
+    d: "www.modrinth.com",
+    r: 13,
+    s: "Modrinth",
+    sc: "Games (Minecraft)",
+    t: "mcmods",
+    u: "https://modrinth.com/mods?q={{{s}}}",
+  },
   {
     c: "AI",
     d: "www.t3.chat",
@@ -66288,7 +66308,7 @@ export const bangs = [
     r: 0,
     s: "Curseforge",
     sc: "Games (Minecraft)",
-    t: "mcmodpacks",
+    t: "mcmodpackscf",
     u: "https://www.curseforge.com/minecraft/modpacks/search?search={{{s}}}",
   },
   {
@@ -66297,7 +66317,7 @@ export const bangs = [
     r: 13,
     s: "Curseforge",
     sc: "Games (Minecraft)",
-    t: "mcmods",
+    t: "mcmodscf",
     u: "https://www.curseforge.com/minecraft/mc-mods/search?search={{{s}}}",
   },
   {
