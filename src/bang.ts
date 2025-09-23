@@ -19157,7 +19157,7 @@ export const bangs = [
     s: "Coles",
     sc: "Online",
     t: "coles",
-    u: "https://shop.coles.com.au/a/a-national/everything/search/{{{s}}}?pageNumber=1",
+    u: "https://www.coles.com.au/search/products?q={{{s}}}",
   },
   {
     c: "Research",
