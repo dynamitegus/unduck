@@ -2,7 +2,15 @@
 
 export const bangs = [
 
-
+  {
+    c: "Search",
+    d: "oxk.cc",
+    r: 0,
+    s: "SearXNG",
+    sc: "dynamitegus search",
+    t: "oxk",
+    u: "https://oxk.cc/search?q={{{s}}}",
+  },
   {
     c: "Entertainment",
     d: "www.modrinth.com",
