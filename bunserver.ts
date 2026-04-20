@@ -12,7 +12,10 @@ const server = Bun.serve({
     "/": app,
     // Wildcard route for all routes that start with "/api/" and aren't otherwise matched
   },
-  fetch(request) {
+  fetch(req, server) {
+    const url = new URL(req.url);
+    const ip = server.requestIP(req);
+    if (url.pathname === "/ip") return new Response(ip.address);
     return new Response("Not Found", { status: 404 });
   },
 
