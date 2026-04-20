@@ -3,6 +3,15 @@
 export const bangs = [
 
   {
+    c: "Tech",
+    d: "u.oxk.cc",
+    r: 0,
+    s: "my ip",
+    sc: "dynamitegus ip",
+    t: "myip",
+    u: "https://u.oxk.cc/ip",
+  },
+    {
     c: "Search",
     d: "oxk.cc",
     r: 0,
