@@ -6,11 +6,11 @@ const server = Bun.serve({
   // `routes` requires Bun v1.2.3+
   routes: {
     "/": htmlPage,
-    "/clipboard-check.svg": "/public/clipboard-check.svg",
-    "/clipboard.svg": "/public/clipboard.svg",
-    "/search.svg": "/public/search.svg",
-    "/bang": "/src/bang.ts",
-    "/global.css": "/src/global.css",
+    "/clipboard-check.svg": "./public/clipboard-check.svg",
+    "/clipboard.svg": "./public/clipboard.svg",
+    "/search.svg": "./public/search.svg",
+    "/bang": "./src/bang.ts",
+    "/global.css": "./src/global.css",
      // Wildcard route for all routes that start with "/api/" and aren't otherwise matched
     "/*": Response.json({ message: "Not found" }, { status: 404 }),
   },
