@@ -13,7 +13,7 @@ function noSearchDefaultPageRender() {
           <input 
             type="text" 
             class="url-input"
-            value="https://unduck.dynamitegus.au?q=%s"
+            value="https://u.oxk.cc?q=%s"
             readonly 
           />
           <button class="copy-button">
