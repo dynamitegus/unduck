@@ -14,7 +14,7 @@ const server = Bun.serve({
   },
   fetch(req, server) {
     const url = new URL(req.url);
-    const ip = req.headers.get("X-Forwarded-For");
+    const ip = req.headers.get("X-Forwarded-For").split(' ')[0];;
     if (url.pathname === "/ip") return new Response(ip);
     return new Response("Not Found", { status: 404 });
   },
